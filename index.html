@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>SleepTime App</title>
+
+    <style>
+        body {
+            text-align: center;
+            color: lightblue;
+            background-color: #001f3f;
+        }
+
+    </style>
+  </head>
+  <body>
+    <p> style tags inline are greater priority than css sheets</p>
+    <p>I think it goes like: inline > in-html-file-style-block > external css sheet</p>
+    <p>Hello world!</p>
+    <p>If you go to bed now, you should wake up at...</p>
+
+    <button onclick="handleOnClickEvent()">zzz</button>
+
+    <p>It takes the average human fourteen minutes to fall asleep.</p>
+    <p>If you head to bed right now, you should try to wake up at one of the following times:</p>
+    <p>11:44 PM or 1:14 AM or 2:44 AM or 4:14 AM or 5:44 AM or 7:14 AM</p>
+    <p>A good night's sleep consists of 5-6 complete sleep cycles.</p>
+
+    <p>This is where the Javascript will go in the code, right
+        before the end of the body. Instead of putting statements
+        in attributes of a button, we will instead call functions
+        which are defined here.
+    </p>
+
+    <script>
+        // we call this function in the onclick button attribute
+        function handleOnClickEvent() {
+            window.alert('buzz!');
+            console.log('fizz!');
+        }
+    </script>
+  </body>
+</html>
