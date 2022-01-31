@@ -46,7 +46,7 @@ function handleOnClickEvent() {
 
     console.log(hoursString);
 
-    hours.innerText = "If you go to bed now, you should try to wake up at one of the following times: " + hoursString + ". This also allows a 14 minute buffer for you to fall asleep (the average time among humans).";
+    hours.innerText = hoursString;
 
     }
 
